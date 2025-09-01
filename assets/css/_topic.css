@@ -1,0 +1,83 @@
+.topic-section-wrapper {
+  background-image: url(../img/color-bg.png);
+  /* height: 900px; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.topic-wrapper .card-header {
+  overflow: hidden;
+}
+.topic-wrapper .card-header img {
+  transition: 0.5s ease;
+}
+.topic-wrapper:hover img {
+  transform: scale(1.2) rotate(10deg);
+}
+.topic-wrapper .card .card-body a {
+  font-size: 15px;
+  padding: 5px;
+  color: rgb(79, 79, 79);
+}
+.topic-wrapper .card .card-body p {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 25px;
+}
+.topic-wrapper .card .card-body {
+  margin: 2rem 0.7rem;
+}
+.topic-wrapper .card .card-body .post-date {
+  top: -3.6rem;
+  right: 1rem;
+  text-align: center;
+  padding: 0 10px;
+  width: 5.5rem;
+}
+.topic-wrapper .card .card-body .post-date div:first-child {
+  background-color: #ffeb78;
+  color: #646464;
+}
+.topic-wrapper .card .card-body .post-date div:last-child {
+  background-color: #646464;
+  color: #ffeb78;
+}
+.topic-wrapper .card .card-footer ul li i,
+.topic-wrapper .card .card-footer ul li span {
+  font-size: 16px;
+  color: #cacaca;
+  padding: 0 3px;
+}
+.topic-wrapper .card .card-footer ul li {
+  padding: 0 10px;
+}
+.topic-wrapper .card .card-footer ul {
+  border-top: 1px solid #cacaca;
+}
+.topic-section-wrapper .row > div:last-child .more-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 20rem; 
+}
+
+.topic-section-wrapper .row > div:last-child .more-wrapper a {
+  border-radius: 100%;
+  background-color: #ffeb78;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 40px;
+  color: #646464;
+  transition: all 0.5s ease;
+}
+.topic-section-wrapper .row > div:last-child .more-wrapper a:hover {
+  background-color: #646464;
+  color: #ffeb78;
+  transform: scale(0.8);
+  font-size: 40px;
+}

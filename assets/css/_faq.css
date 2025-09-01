@@ -1,0 +1,102 @@
+.faq-section-bg {
+  background-image: url(../img/faq/faq-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  align-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .faq-section-bg .container .row {
+    display: flex;
+    align-items: center;
+  }
+  
+}
+.faq-section-wrapper .faq-right-side {
+  background-color: #efefef;
+  box-shadow: 0px 3px 5px 1px gray;
+  padding: 2rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.faq-section-wrapper .faq-right-side h6 {
+  font-size: 1rem;
+}
+.faq-section-wrapper .faq-right-side h6 i {
+  font-size: 2rem;
+  color: rgb(224 200 56);
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+.faq-section-wrapper .faq-right-side p {
+  margin-right: 3rem;
+  font-size: 14px;
+  color: #6c6c6c;
+}
+.faq-section-wrapper .faq-left-side .tabs {
+  background-color: #ffe65b;
+  box-shadow: 0px 3px 5px 1px gray;
+  padding: 0rem;
+  overflow: hidden;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.faq-section-wrapper .faq-left-side .tabs .tab {
+  color: #272727;
+  overflow: hidden;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+}
+.faq-section-wrapper .faq-left-side .tabs .tab .tab-label {
+  padding: 1rem;
+  font-weight: bolder;
+  width: 100%;
+  cursor: pointer;
+}
+.faq-section-wrapper .faq-left-side .tabs .tab .faq-question-wrapper:hover {
+  background-color: #fff8c8;
+}
+.faq-section-wrapper .faq-left-side .tabs .tab .table-content {
+  max-height: 0;
+  color: #4a4a4a;
+  background-color: #c8c8c8;
+  transition: all 0.6s ease;
+}
+.faq-section-wrapper .faq-left-side .tabs .tab input:checked ~ .table-content {
+  max-height: 7rem;
+  overflow: auto;
+  padding: 10px;
+}
+.faq-section-wrapper .faq-left-side .tabs .tab input {
+  display: none;
+}
+
+.faq-section-wrapper .faq-left-side .tabs .tab .faq-question-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.faq-section-wrapper
+  .faq-left-side
+  .tabs
+  .tab
+  .faq-question-wrapper
+  .tab-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+}
+.faq-section-wrapper
+  .faq-left-side
+  .tabs
+  .tab
+  .faq-question-wrapper
+  .tab-label
+  i {
+  transition: 0.5s ease all;
+}
+.faq-left-side .tab input:checked + .faq-question-wrapper i {
+  transform: rotate(-90deg);
+}

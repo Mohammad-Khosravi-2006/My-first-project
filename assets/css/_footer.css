@@ -1,0 +1,131 @@
+.footer-section-wrapper .footer-section-bg {
+  background-color: #646464;
+  min-height: 20rem;
+}
+.footer-section-wrapper .footer-section-bg .copy-right {
+  color: #fff3ac;
+  font-size: 12px;
+  padding: 10px 0;
+  border-top: 2px dashed #ffeb78;
+}
+.footer-section-wrapper .footer-section-bg .desc a i {
+  color: #ffeb78;
+  padding-left: 0.5rem;
+  font-size: 2.5rem;
+  transform: rotate(-15deg);
+}
+.footer-section-wrapper .footer-section-bg .desc a {
+  color: #fff4b5;
+  vertical-align: middle;
+  font-size: 15px;
+}
+.footer-section-wrapper .footer-section-bg .desc {
+  padding: 1rem;
+  color: #d4cda6;
+}
+
+.footer-section-wrapper .footer-section-bg .desc p {
+  border-top: 1px solid #87867a;
+  margin-top: 10px;
+}
+.footer-section-wrapper .footer-section-bg .service,
+.footer-section-wrapper .footer-section-bg .social-media,
+.footer-section-wrapper .footer-section-bg .contact-us {
+  padding: 24px 12px;
+  color: #d4cda6;
+}
+.footer-section-wrapper .footer-section-bg .service h6,
+.footer-section-wrapper .footer-section-bg .social-media h6,
+.footer-section-wrapper .footer-section-bg .contact-us h6{
+  font-size: 16px;
+  border-bottom: 1px solid #87867a;
+  padding-bottom: 12px;
+}
+.footer-section-wrapper .footer-section-bg .service ul {
+  font-size: 16px;
+  padding-top: 10px;
+}
+.footer-section-wrapper .footer-section-bg .service ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: 0.5s ease all;
+}
+.footer-section-wrapper .footer-section-bg .service ul li:hover {
+  color: #ffe347;
+  padding-right: 15px;
+}
+.footer-section-wrapper .footer-section-bg .service ul li:hover a {
+  color: #ffe347;
+}
+.footer-section-wrapper .footer-section-bg .service ul li::before {
+  content: "\276f";
+  margin-left: 10px;
+  vertical-align: -1px;
+}
+.footer-section-wrapper .footer-section-bg .service ul li a {
+  color: #d4cda6;
+  transition: 0.5s ease all;
+}
+.footer-section-wrapper .footer-section-bg .social-media ul ,
+.footer-section-wrapper .footer-section-bg .contact-us ul{
+  padding-top: 10px;
+}
+.footer-section-wrapper .footer-section-bg .social-media ul a {
+  color: #ffeb78;
+  font-size: 1.2rem;
+  margin: 0 5px;
+}
+.footer-section-wrapper
+  .footer-section-bg
+  .social-media
+  ul
+  i.ri-facebook-circle-fill:hover {
+  color: #013890;
+  transition: color 0.3s ease-in-out;
+}
+.footer-section-wrapper
+  .footer-section-bg
+  .social-media
+  ul
+  i.ri-github-fill:hover {
+  color: #080808;
+  transition: color 0.3s ease-in-out;
+}
+.footer-section-wrapper
+  .footer-section-bg
+  .social-media
+  ul
+  i.ri-instagram-fill:hover {
+  color: #fc0abf;
+  transition: color 0.3s ease-in-out;
+}
+.footer-section-wrapper
+  .footer-section-bg
+  .social-media
+  ul
+  i.ri-telegram-fill:hover {
+  color: #106aff;
+  transition: color 0.3s ease-in-out;
+}
+.footer-section-wrapper .footer-section-bg .social-media ul i.ri-rss-line:hover {
+  color: orange;
+  transition: color 0.3s ease-in-out;
+}
+.footer-section-wrapper .footer-section-bg .social-media form input[type="text"] {
+  width: 100%;
+  height: 36px;
+  padding: 0.5rem;
+}
+.footer-section-wrapper
+  .footer-section-bg
+  .social-media
+  form
+  input[type="submit"] {
+  top: 1px;
+  left: 1px;
+  height: 34px;
+  padding: 0.5rem;
+  border: none;
+  background-color: #ffe347;
+  color: #646464;
+}

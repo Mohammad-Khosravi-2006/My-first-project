@@ -1,0 +1,45 @@
+.teacher-section-wrapper {
+  background-image: url(../img/e-bg.jpg);
+  padding-top: 1rem;
+}
+.teacher-intro {
+  background-color: #ffeb78;
+  color: #646464;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 3px 6px 3px #efefef;
+  border-radius: 0 0 1rem 1rem;
+}
+.teacher-intro h4 span {
+  color: black;
+}
+.teacher-intro h4 {
+  margin: 1rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+.teacher-intro a {
+  border: 2px solid #646464;
+  color: #646464;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: 0.5s ease-in;
+}
+.teacher-intro a:hover{
+    background-color: #646464;
+    color: #ffeb78;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .teacher-intro h4 {
+    font-size: 1rem;
+  }
+  .teacher-intro a{
+    padding: 0rem 0.3rem;
+  }
+}

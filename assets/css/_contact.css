@@ -1,0 +1,47 @@
+/* start contact section */
+.container-fluid-custom {
+    background-color: rgb(100, 100, 100);
+    height: 40px;
+  }
+  .container-fluid-custom .contact {
+    font-size: 16px;
+  }
+  .container-fluid-custom .contact i {
+    color: rgb(255, 228, 73);
+    margin-right: 10px;
+    vertical-align: -8px;
+  }
+  .container-fluid-custom .contact span {
+    color: rgb(245, 235, 180);
+    padding-left: 5px;
+    vertical-align: 1px;
+  }
+  .container-fluid-custom .social-media {
+    direction: ltr;
+    font-size: 20px;
+  }
+  .container-fluid-custom .social-media i {
+    vertical-align: -4px;
+    margin-right: 12px;
+  }
+  .container-fluid-custom .social-media .ri-facebook-circle-fill:hover {
+    color: #013890;
+    transition: color 0.3s ease-in-out;
+  }
+  .container-fluid-custom .social-media .ri-github-fill:hover {
+    color: #080808;
+    transition: color 0.3s ease-in-out;
+  }
+  .container-fluid-custom .social-media .ri-instagram-fill:hover {
+    color: #fc0abf;
+    transition: color 0.3s ease-in-out;
+  }
+  .container-fluid-custom .social-media .ri-telegram-fill:hover {
+    color: #106aff;
+    transition: color 0.3s ease-in-out;
+  }
+  .container-fluid-custom .social-media .ri-rss-line:hover {
+    color: orange;
+    transition: color 0.3s ease-in-out;
+  }
+  /* end contact section */
